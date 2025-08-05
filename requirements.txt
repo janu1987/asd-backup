@@ -1,9 +1,9 @@
 # Explicit requirements file for Streamlit
 # This file is a copy of setup.cfg requirements
 
-streamlit
+streamlit>=1.24.1
 matplotlib>=3.2.2
-numpy>=1.18.5
+numpy>=1.25.1
 opencv-python>=4.1.1
 Pillow>=7.1.2
 PyYAML>=5.3.1
@@ -12,7 +12,7 @@ scipy>=1.4.1
 torch>=1.7.0
 torchvision>=0.8.1
 tqdm>=4.64.0
-pandas>=1.1.4
+pandas>=2.0
 seaborn>=0.11.0
 ipython  # interactive notebook
 psutil  # system utilization
